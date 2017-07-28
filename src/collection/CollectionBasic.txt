@@ -1,0 +1,19 @@
+>Collection are growbable in nature
+>It can hold both homogenious and heterogenious element
+>Every collection class is implemented based on some data structure
+>Collection can hold only object but not primitive
+What is Collection?
+>If we want to represent a group of individual object as a single entity then
+we should go for collection
+Difference between Collection and Colletions
+>Collection is a interface which can be used to represent a group of individual obj as a single
+ entity
+>Collections is  a utility class present in java.util.package to define several utility methods
+like (sorting,searching) for collection object
+>Colllcestion > List(i)=ArrayLsit,Linklist,vector
+  List=Doublicate is allowed and insertion order must be preserved than we should go for List
+>Collection> Set =HashSet,LinkHashSet
+  Set= doublicate is not allowed and insertion order must not be preserved
+
+>Map =Map is not child interface of Collection .If we want to represent a group of individual object
+      as key value pair then should go for Map.Here Dublicate key is not allowed here
