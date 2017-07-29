@@ -1,0 +1,8 @@
+If we want to retrieve obj one by one from the collection then we should go for cursor
+There are three types of cursor
+ 1.Enumaration
+ 2.Iterator
+ 3.ListIterator
+ Here Iterator is the unversal cursor
+ But Iterator can only traverse in the towards forword direction
+ it is single direction cursor and only can read and remove but can not replace

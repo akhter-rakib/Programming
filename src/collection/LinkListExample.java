@@ -1,8 +1,8 @@
 package collection;
 //doublicate allowed and insertion order preserved
-//all collection interface are seriable and clonable but only arrayList and vector are random access
+//all collection interface are serialable and clonable but only arrayList and vector are random access
 //linkList is the best choice if ur frequent operarion is insertion and deletion in the middle
-//usualy we use linkList for stack and queues
+//usualy we use linkList for stack() and queues()
 
 import java.util.LinkedList;
 
@@ -17,7 +17,7 @@ public class LinkListExample {
         linkedList.add("rakib");
         linkedList.add("hasan");
         linkedList.add("ata");
-        linkedList.add(0,"Shole");
+        linkedList.add(0, "Shole");
         linkedList.addFirst("Kasem");//kasem first a bosbe karon addfirst() method use kora hoase
         System.out.println(linkedList);
 

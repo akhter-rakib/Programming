@@ -1,0 +1,8 @@
+If we want to retrieve obj one by one from the collection then we should go for cursor
+There are three types of cursor
+ 1.Enumaration=for legacy example vector interface
+ 2.Iterator= universal curosr.only forword towards traverse
+ 3.ListIterator = can forword and towards traverse
+ Here Iterator is the unversal cursor
+ But Iterator can only traverse in the towards forword direction
+ it is single direction cursor and only can read and remove but can not replace
