@@ -19,7 +19,6 @@ public class Paloindrome {
             System.out.println("You Given String " + input + "is a Palindrome value ");
         } else {
             System.out.println("You Given String " + input + "is not Palindrome value ");
-
         }
 
     }
