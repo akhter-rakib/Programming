@@ -7,26 +7,19 @@ import java.util.Scanner;
 public class BinarySearch {
 
     static int binarySearch(ArrayList<Integer> arry, Integer left, Integer right, Integer s) {
-        Integer i = 0;
+
         if (right >= left) {
             int mid = (left + right) / 2;
             if (arry.get(mid) == s) {
-                i++;
-                System.out.println("How many time it need to run "+i);
                 return mid;
-
             } else if (arry.get(mid) > s) {
-                i++;
                 return binarySearch(arry, left, right = mid - 1, s);
-
             } else {
-                i++;
                 return binarySearch(arry, left = mid + 1, right, s);
             }
         } else {
             return -1;
         }
-
     }
 
     public static void main(String[] args) {
