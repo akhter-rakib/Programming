@@ -1,0 +1,29 @@
+https://beginnersbook.com/2013/04/java-exception-handling/
+ >Exception allows us to handle the runtime errors caused by exceptions.
+ Why an exception occurs?
+ > Opening a non-existing file in your program, Network connection problem, bad input data provided by user etc.
+  as most of the time exception occurs due to bad data provided by user.
+Why we need Exception ?
+ > Exception handling ensures that the flow of the program doesn’t break when an exception occurs.
+
+ Types of exceptions
+ There are two types of exceptions in Java:
+ 1)Checked exceptions
+  >Runtime Exception bade sob exception k unchekced exception bole.ae excetpion gula programmer handle na korle
+    compilation error dekhabe ..
+    For example, SQLException, IOException, ClassNotFoundException etc.
+ 2)Unchecked exceptions
+  Runtime Exceptions are also known as Unchecked Exceptions. These exceptions are not checked at compile-time so
+    compiler does not check whether the programmer has handled them or not but it’s the responsibility of the programmer
+    to handle these exceptions and provide a safe exit. For example, ArithmeticException, NullPointerException,
+    ArrayIndexOutOfBoundsException etc.
+    Compiler will never force you to catch such exception or force you to declare it in the method using throws keyword
+    NullPointerException – When you try to use a reference that points to null.
+    ArithmeticException – When bad data is provided by user, for example, when you try to divide a number by zero
+    this exception occurs because dividing a number by zero is undefined.
+    ArrayIndexOutOfBoundsException – When you try to access the elements of an array out of its bounds, for example
+    array size is 5 (which means it has five elements) and you are trying to access the 10th element.
+
+
+
+
