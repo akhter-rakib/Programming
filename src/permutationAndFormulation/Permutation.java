@@ -21,6 +21,7 @@ public class Permutation {
         for (String strNew : words) {
             for (int i = 0; i <= strNew.length(); i++) {
                 perm.add(charInsert(strNew, initial, i));
+                System.out.println(perm);
             }
         }
         return perm;
