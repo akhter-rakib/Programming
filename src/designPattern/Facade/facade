@@ -1,0 +1,12 @@
+Facade Design Pattern :
+facade means face of building(building ar ar face but building ar vitore ki ase seta jani na ) .. The people
+walking past the road can only see this glass face of the building.
+They do not know anything about it, the wiring, the pipes and other complexities. It hides all the complexities
+of the building and displays a friendly face.
+Another good example can be the startup of a computer. When a computer starts up, it involves the work of cpu,
+memory, hard drive, etc. To make it easy to use for users, we can add a facade which wrap the complexity of
+the task, and provide one simple interface instead.
+
+provide unified(somonnit) interface to a set of interface(s) in a subsystem
+
+
