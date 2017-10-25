@@ -11,9 +11,9 @@ public class AbstractFactoryPatternDemo {
         shapeRectangle.draw();
         //to get collor
         AbstractFactory colorFactory = FactoryProducer.getFactory("Color");
-        Color red = colorFactory.gerColor("Red");
+        Color red = colorFactory.getColor("Red");
         red.fill();
-        Color blue = colorFactory.gerColor("Blue");
+        Color blue = colorFactory.getColor("Blue");
         blue.fill();
     }
 }

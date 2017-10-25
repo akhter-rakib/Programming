@@ -2,7 +2,7 @@ package designPattern.Abstract_Factory_patterns;
 
 public class ShapeFactory extends AbstractFactory {
     @Override
-    Color gerColor(String color) {
+    Color getColor(String color) {
         return null;
     }
 

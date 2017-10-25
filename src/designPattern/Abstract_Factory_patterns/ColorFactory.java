@@ -2,7 +2,7 @@ package designPattern.Abstract_Factory_patterns;
 
 public class ColorFactory extends AbstractFactory {
     @Override
-    Color gerColor(String color) {
+    Color getColor(String color) {
         if (color == null)
             return null;
         if (color.equalsIgnoreCase("Red"))
