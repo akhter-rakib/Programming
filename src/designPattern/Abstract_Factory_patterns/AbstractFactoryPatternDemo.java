@@ -7,7 +7,7 @@ public class AbstractFactoryPatternDemo {
         Shape shapeCircle = shapeFactory.getShape("CIRCLE");
         shapeCircle.draw();
         //GET AN OBJECT OF RECTANGLE
-        Shape shapeRectangle = shapeFactory.getShape("Rectanlge");
+        Shape shapeRectangle = shapeFactory.getShape("Rectangle");
         shapeRectangle.draw();
         //to get collor
         AbstractFactory colorFactory = FactoryProducer.getFactory("Color");
