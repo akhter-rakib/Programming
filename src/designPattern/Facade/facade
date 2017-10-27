@@ -7,6 +7,6 @@ Another good example can be the startup of a computer. When a computer starts up
 memory, hard drive, etc. To make it easy to use for users, we can add a facade which wrap the complexity of
 the task, and provide one simple interface instead.
 
-provide unified(somonnit) interface to a set of interface(s) in a subsystem
+> provide unified(somonnit) interface to a set of interface(s) in a subsystem
 
 
