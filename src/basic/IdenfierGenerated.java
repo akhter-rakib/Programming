@@ -24,7 +24,7 @@ public class IdenfierGenerated {
     }
 
     public static void main(String[] args) {
-        //Database Collected Id 17y 11 month 8 dd //this is a dateFormated 
+        //Database Collected Id 17y 11 month 8 dd //this is a dateFormated
         String oldPatientIdentifier = "17119-2";
 
         IdenfierGenerated idenfierGenerated = new IdenfierGenerated();
