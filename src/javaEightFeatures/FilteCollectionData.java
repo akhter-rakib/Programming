@@ -28,7 +28,7 @@ public class FilteCollectionData {
         Stream<Product> filtered_data_aboveTwelve = products.stream().filter(product -> product.price > 12);
 
         filtered_data_aboveTwelve.forEach(
-                localVariable -> System.out.println(localVariable.name+": "+localVariable.price)
+                localVariable -> System.out.println(localVariable.name + ": " + localVariable.price)
         );
     }
 

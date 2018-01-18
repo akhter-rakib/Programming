@@ -1,9 +1,9 @@
 package javaEightFeatures;
 
 public class Product {
-    Integer id;
-    String name;
-    Double price;
+    public Integer id;
+    public String name;
+    public Double price;
 
     public Product(Integer id, String name, Double price) {
         this.id = id;

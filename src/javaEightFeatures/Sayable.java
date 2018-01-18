@@ -2,7 +2,7 @@ package javaEightFeatures;
 
 public interface Sayable {
 
-    public String say();
+    public void say();
 
 
 }
