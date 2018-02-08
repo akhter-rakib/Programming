@@ -1,0 +1,12 @@
+It provides methods which are used to check the presence of value for particular variable.
+
+Varialbe a value ase ki nai je jonno ae class declare kora hoi
+Advantages :
+The main advantage of this new construct is that No more too many null checks and NullPointerException
+
+Advantages of Java 8 Optional:
+
+Null checks are not required.
+No more NullPointerException at run-time.
+We can develop clean and neat APIs.
+No more Boiler plate code
