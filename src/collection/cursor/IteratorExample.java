@@ -21,8 +21,6 @@ public class IteratorExample {
             } else {
                 System.out.println("The Odd value of the List is " + i);
             }
-
-
         }
 
     }

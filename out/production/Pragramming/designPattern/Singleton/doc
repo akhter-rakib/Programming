@@ -1,0 +1,16 @@
+for any java class if you allow to create only one object such type of class is called Singleton class
+Example : runtime business deligate servicelotor etc
+Advanced of Singleton class
+what is the need of Sngleton object?
+
+performance and memory utilise is the main reson for Singleton
+Here run time a sob object akta object ar memory share kore thake
+if several pepople have same requriment then it is not
+requirement to create a seprate object for every requirement
+.
+Runtime class is internally implemented using this approach
+private constructor main use is :
+>Private constructor main use is to create singleton class
+kono class k final declare korle setar ar child class create kora jai na but jodi class is not
+final then kivabe child class na bania thakte pari
+ans:oi mother class ar constructor k private kore dite hobe :)

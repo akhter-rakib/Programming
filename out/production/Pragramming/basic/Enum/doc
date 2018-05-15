@@ -1,0 +1,8 @@
+Enum in java is a data type that contains fixed set of constants.
+Points to remember for Java Enum
+
+enum improves type safety
+enum can be easily used in switch
+enum can be traversed
+enum can have fields, constructors and methods
+enum may implement many interfaces but cannot extend any class because it internally extends Enum class

@@ -3,7 +3,7 @@ package basic;
 import java.util.Scanner;
 
 public class UserGivennearestValue {
-//18 given out put will be 20 , 16 given will be 15
+    //18 given out put will be 20 , 16 given will be 15
     public static Integer nearValue(Integer userGivenValue) {
         Integer restValue = userGivenValue % 5;
         if (restValue >= 3) {

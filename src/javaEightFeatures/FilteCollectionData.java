@@ -2,6 +2,7 @@ package javaEightFeatures;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class FilteCollectionData {
@@ -26,7 +27,10 @@ public class FilteCollectionData {
         }*/
 
         Stream<Product> filtered_data_aboveTwelve = products.stream().filter(product -> product.price > 12);
-
+        List<Product> filterAsList = products.stream().filter(product -> product.price > 12).collect(Collectors.toList());
+        for (Product p : filterAsList) {
+            System.out.println(p.price);
+        }
         filtered_data_aboveTwelve.forEach(
                 localVariable -> System.out.println(localVariable.name + ": " + localVariable.price)
         );

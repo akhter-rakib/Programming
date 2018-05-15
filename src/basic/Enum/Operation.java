@@ -8,7 +8,7 @@ public enum Operation {
     ADMIN,
     USER;
 
-    boolean isAdmin(String UserStatus){
+    boolean isAdmin(String UserStatus) {
         switch (this) {
             case ADMIN:
                 return true;
@@ -18,6 +18,7 @@ public enum Operation {
                 throw new AssertionError("Unknown operations " + this);
         }
     }
+
     double calculation(double a, double b) {
         switch (this) {
             case PLUS:
