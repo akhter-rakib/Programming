@@ -1,0 +1,14 @@
+In java, string is basically an object that represents sequence of char values. An array of characters
+works same as java string. For example:
+In java, string objects are immutable. Immutable simply means unmodifiable or unchangeable.
+Once string object is created its data or state can't be changed but a new string object is created.
+
+Why string objects are immutable in java?
+Because java uses the concept of string literal.Suppose there are 5 reference variables,
+all refers to one object "sachin".If one reference variable changes the value of the object,
+it will be affected to all the reference variables. That is why string objects are immutable in java.
+
+What is mutable string
+A string that can be modified or changed is known as mutable string. StringBuffer and StringBuilder
+classes are used for creating mutable string.
+
