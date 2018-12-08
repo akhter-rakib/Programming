@@ -1,0 +1,2 @@
+#It uses a doubly linked list internally to store the elements
+ It maintains the insertion order and is not synchronized

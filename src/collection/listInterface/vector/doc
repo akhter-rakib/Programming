@@ -1,0 +1,6 @@
+Vector use dynamic data structure as ArrayList
+  The difference between Vector and ArrayList is
+        Vector is Syncronized
+           ArrayList is not Syncronized
+
+  #Stack uses the last-in-first-out data structure

@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class BinarySearch {
 
     static int binarySearch(ArrayList<Integer> arry, Integer left, Integer right, Integer s) {
-
         if (right >= left) {
             int mid = (left + right) / 2;
             if (arry.get(mid) == s) {
@@ -23,7 +22,6 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
-        ArrayList element = new ArrayList();
         Integer l = 0, r, s;
         ArrayList<Integer> arry = new ArrayList<>(Arrays.asList(1, 2, 6, 8, 10, 34, 90, 100));
         System.out.println(arry);
@@ -37,7 +35,5 @@ public class BinarySearch {
         } else {
             System.out.println("Your location is " + valueSearCh);
         }
-
     }
-
 }
