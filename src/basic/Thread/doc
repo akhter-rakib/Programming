@@ -1,0 +1,13 @@
+For each program, a Main thread is created by JVM(Java Virtual Machine).
+The “Main” thread first verifies the existence of the main() method, and then it initializes the class.
+Note that from JDK 6, main() method is mandatory in a standalone java application.
+
+
+
+
+Deadlocking with use of Main Thread(only single thread)
+We can create a deadlock by just using Main thread, i.e.
+by just using a single thread. The following java program demonstrate this.
+Explanation :
+The statement “Thread.currentThread().join()”, will tell Main thread to wait for this thread(i.e. wait for itself) to die.
+Thus Main thread wait for itself to die, which is nothing but a deadlock
