@@ -2,7 +2,7 @@ package basic;
 
 import java.util.Scanner;
 //0 1 1 2 akhen first 2ta add kore next a akta value pai then second value and next value add
-//korle abar porer next ta pain
+//korle abar porer next ta pai
 //example ... next = first+second; second+next()=next
 public class FibonacciSeries {
 
