@@ -1,11 +1,13 @@
 package collection.Set;
 
 import java.util.HashSet;
+import java.util.Set;
+
 //dublicate value is not allowed
 public class HashSetExample {
     public static void main(String args[]) {
         // HashSet declaration
-        HashSet<String> hset = new HashSet<String>();
+        Set<String> hset = new HashSet<String>();
 
         // Adding elements to the HashSet
         hset.add("Apple");
@@ -19,7 +21,7 @@ public class HashSetExample {
         //Addition of null values
         hset.add(null);
         hset.add(null);
-        //Displaying HashSet elements
+        //Displayin HashSet elements
         System.out.println(hset);
     }
 }
