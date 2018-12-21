@@ -1,0 +1,8 @@
+We can convert String to Date in java using parse() method of DateFormat and SimpleDateFormat classes.
+
+  // String -> Date
+    SimpleDateFormat.parse(String);
+
+    // Date -> String
+    SimpleDateFormat.format(date);
+
