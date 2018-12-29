@@ -1,4 +1,4 @@
-package Java_coding_bat.Warmup_1;
+package Java_coding_bat_JavaQuentionPractice.Warmup_1;
 
 import java.util.Scanner;
 
