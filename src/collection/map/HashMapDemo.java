@@ -11,6 +11,9 @@ public class HashMapDemo {
         mapDemo.put("c", new Integer(300));
         mapDemo.put("d", new Integer(400));
         mapDemo.put("f", new Integer(500));
+        if (mapDemo.containsKey("00")) {
+            System.out.println("HeLlo Bangadesh");
+        }
 
         mapDemo.forEach((k, v) ->
                 System.out.println("key: " + k + " value:" + v));

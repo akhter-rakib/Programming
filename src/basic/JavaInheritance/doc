@@ -1,0 +1,8 @@
+(Is a relation)Inheritance in java is a mechanism in which one object acquires all the properties and behaviors of parent
+object.
+Inheritance represents the IS-A relationship, also known as parent-child relationship.
+Programmer is the subclass and Employee is the superclass. Relationship between two classes
+is Programmer IS-A Employee..
+
+Aggregation in Java..
+  If a class have an entity reference, it is known as Aggregation. Aggregation represents HAS-A relationship.
