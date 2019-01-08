@@ -5,7 +5,7 @@ public class HeadImp extends Studentinfo implements Head {
     @Override
     public void doCommon() {
         setId(1);
-        setName("hellom girl");
+        setName("hello girl");
         System.out.println("Do What you want ? ");
 
     }
