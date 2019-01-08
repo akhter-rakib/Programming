@@ -40,6 +40,6 @@ public class DbBackup {
     }
 
     public static void main(String[] args) {
-        new DbBackup().backupDataWithOutDatabase("C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin\\mysqldump", "localhost", "3306", "root", "mysql123", "pos", "C:\\Users\\Rakib\\Desktop\\DababaseBackup");
+        new DbBackup().backupDataWithOutDatabase("C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin\\mysqldump", "localhost", "3306", "root", "mysql123", "bd_hospital_ssmc", "C:\\Users\\Rakib\\Desktop\\DababaseBackup");
     }
 }
