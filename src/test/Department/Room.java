@@ -4,6 +4,9 @@ public class Room {
     public Integer id;
     private String name;
 
+    public Room() {
+    }
+
     public Room(Integer id, String name) {
         this.id = id;
         this.name = name;
@@ -23,5 +26,13 @@ public class Room {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Room{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
     }
 }

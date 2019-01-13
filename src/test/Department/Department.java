@@ -36,4 +36,13 @@ public class Department {
     public void setRoomList(List<Room> roomList) {
         this.roomList = roomList;
     }
+
+    @Override
+    public String toString() {
+        return "Department{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", roomList=" + roomList +
+                '}';
+    }
 }

@@ -1,5 +1,5 @@
-In java, string is basically an object that represents sequence of char values. An array of characters
-works same as java string. For example:
+In java, string is basically an object that represents sequence of char values. An array
+of characters works same as java string. For example:
 In java, string objects are immutable. Immutable simply means unmodifiable or unchangeable.
 Once string object is created its data or state can't be changed but a new string object is created.
 
@@ -11,4 +11,8 @@ it will be affected to all the reference variables. That is why string objects a
 What is mutable string
 A string that can be modified or changed is known as mutable string. StringBuffer and StringBuilder
 classes are used for creating mutable string.
+
+SubString ?
+A part of string is called substring. In other words, substring is a subset of another string.
+In case of substring startIndex is inclusive and endIndex is exclusive.
 
