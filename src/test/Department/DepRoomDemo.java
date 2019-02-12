@@ -10,7 +10,7 @@ public class DepRoomDemo {
         List<Room> rooms2 = new ArrayList<>();
         List<Room> rooms3 = new ArrayList<>();
         List<Department> departments = new ArrayList<>();
-        List<Department> demo = new ArrayList<>();
+       // List<Department> demo = new ArrayList<>();
         List<DMS> dms = new ArrayList<>();
 
         Room room1 = new Room(1, "Room-1");
@@ -19,12 +19,12 @@ public class DepRoomDemo {
 
         rooms1.add(room1);
         rooms1.add(room2);
-        rooms1.add(room3);
+        rooms1.add(room3);//3 room
 
         rooms2.add(room2);
-        rooms2.add(room3);
+        rooms2.add(room3);//2 ta room
 
-        rooms3.add(room3);
+        rooms3.add(room3);//1 ta
 
         Department department1 = new Department(1, "Eye Department", rooms1);
         Department department2 = new Department(2, "Male", rooms2);
@@ -32,7 +32,7 @@ public class DepRoomDemo {
         departments.add(department1);
         departments.add(department2);
         departments.add(department3);
-        demo.addAll(departments);
+       // demo.addAll(departments);
 
         DMS dms1 = new DMS(1, "room-1");
         DMS dms2 = new DMS(2, "room-2");
@@ -42,19 +42,33 @@ public class DepRoomDemo {
         Room rm = null;
         List<Room> roomList = new ArrayList<>();
         ArrayList<Department> dp = new ArrayList<>();
+        ArrayList<Integer> equalIdList = new ArrayList<>();
 
-        for (Department department : departments) {
-            for (Room room : department.getRoomList()) {
-                for (DMS dm : dms) {
-                    if (room.getId() !=(dm.getId())) {
-                        //department.getRoomList().remove(room);
+//        for (Department department : departments) {
+//            for (Room room : department.getRoomList()) {
+//                for (DMS dm : dms) {
+//                    if (room.getId() !=(dm.getId())) {
+//                        //department.getRoomList().remove(room);
+//
+//                    }else{
+//                        equalIdList.add(room.getId());
+//                    }
+//                }
+//            }
+//        }
 
-                    }
-                }
+        for (int index = 0; index < departments.size(); index++) {
+            Department department = departments.get(index);
+            for (int roomIndex = 0; roomIndex < department.getRoomList().size(); roomIndex++) {
+
             }
+            roomList.clear();
         }
-        for (Department department : demo) {
-            System.out.println(department.toString());
-        }
+
+        //Show Part
+        equalIdList.forEach(e -> {
+            System.out.println(e);
+        });
+
     }
 }
