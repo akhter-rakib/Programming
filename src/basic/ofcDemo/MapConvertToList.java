@@ -14,10 +14,10 @@ public class MapConvertToList {
 
 
         Set<Map.Entry<Integer, String>> set = map.entrySet();
+
         List<Map.Entry<Integer, String>> list = new ArrayList<>(set);
         for (Map.Entry<Integer, String> entry : list) {
             System.out.println("Key :" + entry.getKey() + " Value: " + entry.getValue());
         }
-
     }
 }
