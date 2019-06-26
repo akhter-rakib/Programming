@@ -1,0 +1,13 @@
+It represent one method interface using an expression.
+It is very useful in collection library. It helps to iterate, filter and extract data from collection.
+Java lambda expression is treated as a function, so compiler does not create .class file.
+
+Functional Interface :
+Lambda expression provides implementation of functional interface. An interface which has only one abstract method
+is called functional interface.
+Java provides an anotation @FunctionalInterface, which is used to declare an interface as functional interface.
+
+Why use Lambda Expression
+1. To provide the implementation of Functional interface.
+2. Less coding.
+

@@ -1,0 +1,31 @@
+Where the Python, R, Scala used 10 lines of code there java used 100 line of code because they are functional programming language.
+Concise  code = write less code instead of N number of code.
+python, scala support functional programming.
+Other are procedure programming , functional programming where java is OOP.
+main purpose of Lambda expression is to enable functional programming in java.
+A function we can handle just like object by lambda.In general mathematics term lambda came in 1930...
+
+Java 8 features
+1. Lambda Expressions
+2. Functional Interface
+3. Default methods and static methods
+4. Predefined Functional Interfaces
+   Predicate
+   function
+   Consumer
+   supplier
+   etc
+5. Double colon Operator (::)
+   Method reference
+   Constructor reference
+6. Stream
+7. Date and Time Api
+8. Optional class
+9. Nashorn JavaScript Engine
+10.etc
+
+Lisp is the first programming language where lambda is used first.
+Its very unfortunate that lambda came in java after Ruby, python, C, C++, Scala. Because Java People was Ego for function programming
+because they was proud only for t the OOP
+Main Objective Of lambda Expression is : To bring benefit of functional Programming in Java.
+
