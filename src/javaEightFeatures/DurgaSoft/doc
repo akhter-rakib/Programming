@@ -1,59 +1,87 @@
 Where the Python, R, Scala used 10 lines of code there java used 100 line of code because they are functional programming language.
-Concise  code = write less code instead of N number of code.
-python, scala support functional programming language.
-Other are procedure programming , functional programming where java is OOP.
-In general mathematics term lambda came in 1930...
-Main purpose of Lambda expression is to enable functional programming in java.
-We can handle a function just like object by lambda.
-
+By functional Programming we can Concise  code = write less code instead of N number of code.
 
 Java 8 features
 1. Lambda Expressions
 2. Functional Interface
 3. Default methods and static methods
 4. Predefined Functional Interfaces
-   Predicate
-   function
-   Consumer
-   supplier
-   etc
+  such as
+  Predicate
+  function
+  Consumer
+  supplier
+  etc
 5. Double colon Operator (::)
-   Method reference
-   Constructor reference
+   Use on
+  Method reference
+  Constructor reference
 6. Stream
 7. Date and Time Api
 8. Optional class
 9. Nashorn JavaScript Engine
 10.etc
 
-Lisp is the first programming language where lambda is used first.
-Its very unfortunate that lambda came in java after Ruby, python, C, C++, Scala. Because Java People was Ego for function programming
-because they was proud only for t the OOP
-Main Objective Of lambda Expression is : To bring benefit of functional Programming in Java.
-lambda expression is an ananymous function.
- Nameless
- without return type
- without modifiers
+Lisp is the first programming language where lambda is used first.In general mathematics term lambda came in 1930.
+Its very unfortunate that lambda came in java after Ruby, python, C, C++, Scala. Because Java People had Ego for function programming 
+because they were proud only for the OOP
+
+Main purpose of Lambda expression is to enable functional programming in java.
+We can handle a function just like object by lambda.
+A lambda expression is an anonymous function.
+
+Anonymous means
+Nameless
+without return type
+without modifiers
 For example : we want to write a method which will print a "Hello world" message
 public void m1(){
 System.out.println("Hello world");
 }
-Insted of doing upper code we can handle it by lambda expression(ananymous function: nameless, no return type, no modifiers)
+Instead of doing upper code we can handle it by lambda expression
 
 () -> {System.out.println("Hello World");}
 
 concise code : (int n) - > { return n*n ;}
                (int n) - > return n*n; //if only single statement then we can remove {}
-               (int n> - > n*n; //if there is no {} then return key word can be omit
-               (n) - > n*n; //here compile will gues the argument type
-If we want to invoke lambda expression compulsary functional interface must be needed.the job of FI is to call
-lambda expression.
+               (int n> - > n*n; //if there is no {} and return keyword is available in a single statement we can omit the return keyword.
+               (n) - > n*n; //here compile will guess the argument type
+			  
+If we want to invoke lambda expression then compulsory functional interface must be needed.The job of FI is to call
+Lambda expression.
 
-Functional interface : If a interface has only one abstruct method.
-An interface which contain SAM(Simple Abstruct Method)
-All this folloing things by default constructor as functional interface
-in multiThereding - Runnable ==> run()
-compareable ==> compareTo()
+Functional interface : If an interface has only one abstract method.
+An interface which contain SAM(Simple Abstract Method).In function interface we cannot use more than one abstruct
+method but we can use default and static method into it.
+All this following things by default constructor as functional interface
+in multiThreading - Runnable ==> run()
+comparable ==> compareTo()
 comparator ==> compare()
 actionListner ==> actionPerformed()
 Callable ==> call()
+
+Lambda Expressions: Lambda expression is nothing but ananymous function.
+In lambda expresion the argument type can not be written because compiler will guess the argument type.
+ exm: (int a) - > a*a; //
+       (a) - > a*a; //compiler will guess the argument type
+        a - > a*a; // if there is only one argument then "()" is not needed
+
+Give the right ans of the following question.
+1. n -> return n*n; //invalid
+2. n -> {return n*n;}; //valid
+3. n -> {return n*n};//invalid need ";"
+4. n - > {n*n}; //we have to use return statement within "{}"
+5. n -> n*n; //valid
+without curly braces we can not use return keyword.compiler will consider returned value autometically
+within curly braces if we want to return some value compulsary we should use return statement.
+
+Lambda with functional interface.
+Lambda expression is only applicable for only functional interface.
+ So many people bigger doubt lambda expression does generate . class fille yes or no
+ANs: No
+ WE can define a thread by two ways
+1. By implementing Runable interface
+2. By Extending Thread Class
+
+
+
