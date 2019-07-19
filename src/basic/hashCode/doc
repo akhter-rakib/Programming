@@ -1,0 +1,32 @@
+Hash code is nothing but address of the object. most people ans it.
+is it possible to override hashcode? yes
+is it possible to override address of a object ? No
+So HashCode and Address both are same ? No
+In java it is impossible to know address of a object because java language is
+programmer friendly language .Not machine friendly language. C, c++ machine friendly language
+What is hashCode ?
+For every obj a unique number will generate by  jvm which is nothing but hashCode
+What is the need of hashCode ?
+In hashing related data structure while saving the obj jvn will use hashcode.
+Each object will be added base on hashCode
+If every object is save base on hashCode then Search Operation will be Easy
+Number one Search algorithm is hashing.
+1.Liner Search -> linearly(one by one) we have to compare to search a value in this linear search
+                  complexity : 0(n) it is simplest but worst search
+2.Binary Search -> first we need to sort it
+                   then we need to divide it
+                   Complexity : o(log2 ^n)
+3.Hashing Search -> In this search system it want to know what is hashCode and search it in the
+                    HashTable(bucket)
+                    complexity : 0(1)
+hashCode can not represent address of object.
+JVM will use hashCode while saving obj into into hashing related data Structure just like hashTale,
+hashMap, hashSet etc.
+Main Advantage of saving object base on hashCode is Search operation become easy
+Most powerful search algorithm is hashing
+If we can not keep hashCode method we can use Object class hashCode method
+ public native int hashCode()
+ Object class hashCode method will generate hashCode base on address of object only.
+ It does not mean that hashCode represent Address of a Object . It will take the Address to
+ generate for example :
+  hashCode = (object address*3*7/3.7) //it is just a demo
