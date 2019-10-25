@@ -14,6 +14,5 @@ public class InterFDemo1 {
         Interf interf = () -> System.out.println("Hello Bangladesh");
         interf.m1();
 
-        Function
     }
 }
