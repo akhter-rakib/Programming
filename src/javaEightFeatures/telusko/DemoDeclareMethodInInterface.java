@@ -1,6 +1,6 @@
 package javaEightFeatures.telusko;
 
-public class Demo extends C implements A, B {
+public class DemoDeclareMethodInInterface extends C implements A, B {
     @Override
     public void add() {
 
@@ -15,7 +15,8 @@ public class Demo extends C implements A, B {
 // here can be ambiguous problem because same show method is also in A class.
     // To use default method name in interface we have to careful because same method can be in Object class too
     public static void main(String[] args) {
-        Demo demo = new Demo();
+        DemoDeclareMethodInInterface demo = new DemoDeclareMethodInInterface();
         demo.show();// this show() is from C class because a Class method is powerful than interface default method
+        StaticMethodinInterface.callMe();//Here the static method has been called
     }
 }

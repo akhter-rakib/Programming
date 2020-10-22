@@ -14,6 +14,6 @@ public class forEachLoop {
             System.out.println(value);
         }
         /*forEach loop and its internal forEach loop in java collection*/
-        list.forEach(value -> System.out.println(value));
+        list.forEach(value -> System.out.println(value)); //It is Interface class name is Consumer InterFace
     }
 }
