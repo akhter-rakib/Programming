@@ -1,16 +1,16 @@
 package designPattern.Singleton;
 
-public class SingletonClass {
-    public static SingletonClass singleton = new SingletonClass();
+public class SingletonClassByApproachOne {
+    public static SingletonClassByApproachOne singleton = new SingletonClassByApproachOne();
 
     //this instance is create during the class load
     /*A private Constructor prevents any other
         class from instantiating*/
-    private SingletonClass() {
+    private SingletonClassByApproachOne() {
 
     }
 
-    public static SingletonClass getSingletonClass() {
+    public static SingletonClassByApproachOne getSingletonClassByApproachOne() {
         return singleton;
     }
 

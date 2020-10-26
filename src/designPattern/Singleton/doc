@@ -1,17 +1,27 @@
-for any java class if you allow to create only one object such type of class is called Singleton class
-Example : runtime business deligate servicelotor etc
-Advanced of Singleton class
+ Def: For any java class if  we  allow to create only one object/instance such type of class is called Singleton class
+  Example :
+   1. Runtime(Java Runtime class is used to interact with java runtime environment. Java Runtime class provides
+      methods to execute a process, invoke GC, get total and free memory in JVM etc),
+      So By Runtime object we can communicate with JVM
+   2. Business servicelotor etc
+      Advanced of Singleton class
 
-what is the need of Sngleton object?
+what is the need of Singleton object? Advantage class of singleClass
+if several people have same requirement then it is not
+requirement to create a separate object for every requirement. so for this causes
+ - performance and memory utilise is the main reason for Singleton
+ - Here run time a sob object akta object ar memory share kore thake
 
-performance and memory utilise is the main reason for Singleton
-Here run time a sob object akta object ar memory share kore thake
-if several pepople have same requriment then it is not
-requirement to create a separate object for every requirement
-.
-Runtime class is internally implemented using this approach
-private constructor main use is :
->Private constructor main use is to create singleton class
-kono class k final declare korle setar ar child class create kora jai na but jodi class is not
-final then kivabe child class na bania thakte pari
+Way to Create Single class
+Approach One : private static className var = new ClassName; under The CLass So that In the Run time It will create a Obj
+ for EveryRequest
+Approach Two : Private static CLassName var =null;
+ When the first request comes then It will create the obj and after that other will reuse this obj
+Runtime class is internally implemented using the first way(Look the exmp : SingleTonCLassWayOne) of create singleton class.
+
+Do you know what is the main Use of private constructor ?:
+> Private constructor main use is to create singleton class.
+
+kono class k final declare korle setar ar child class(oi class k kau extends korte pare na) create kora jai na but
+jodi class is not final then kivabe child class child class create kora protect kora jabe ?
 ans:oi mother class ar constructor k private kore dite hobe :)

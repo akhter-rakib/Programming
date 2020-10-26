@@ -1,8 +1,8 @@
 package designPattern.Singleton;
 
-public class SingletonClassDemo {
+public class SingletonClassApproachTwo {
     public static void main(String[] args) {
-        SingletonClass tmp = SingletonClass.getSingletonClass();
+        SingletonClassByApproachOne tmp = SingletonClassByApproachOne.getSingletonClassByApproachOne();
         tmp.demoMethod();
         tmp.donPlz();
         // SingletonClass tmp = new SingletonClass()
